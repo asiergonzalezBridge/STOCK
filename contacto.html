@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Gestión Stock</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Gestión Stock - Inicio">
+      <img class="brand__logo" src="img/logo.png" alt="Logo GS" />
+      <span class="brand__name">Gestión Stock</span>
+    </a>
+
+    <nav class="topnav" aria-label="Navegación principal">
+      <a class="topnav__link" href="index.html">Inicio</a>
+      <a class="topnav__link" href="funcion.html">Funciones</a>
+    
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Contacto</h1>
+        <p class="subtitle">
+          Cuéntanos tu tipo de comercio y qué materias primas gestionas. Te respondemos con una demo adaptada.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-col">
+        <!-- FORM -->
+        <div class="card">
+          <h2 class="h2">Escríbenos</h2>
+
+          <form class="form" action="#" method="post">
+            <label class="label">
+              Nombre
+              <input class="input" type="text" name="nombre" placeholder="Tu nombre" required />
+            </label>
+
+            <label class="label">
+              Email
+              <input class="input" type="email" name="email" placeholder="tu@email.com" required />
+            </label>
+
+            <label class="label">
+              Asunto
+              <input class="input" type="text" name="asunto" placeholder="Quiero una demo" required />
+            </label>
+
+            <label class="label">
+              Mensaje
+              <textarea class="textarea" name="mensaje" rows="5" placeholder="Cuéntanos tu caso..." required></textarea>
+            </label>
+
+            <label class="checkbox">
+              <input type="checkbox" name="novedades" />
+              Quiero recibir novedades del proyecto
+            </label>
+
+            <button class="btn btn--primary" type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <!-- INFO + IMAGEN -->
+        <div class="card">
+          <h2 class="h2">Información</h2>
+          <p class="p muted">
+            Podemos preparar un ejemplo con tu sector: panadería, carnicería, restaurante, tienda gourmet, etc.
+          </p>
+
+          <ul class="list">
+            <li>📍 Bilbao (demo online)</li>
+            <li>✉️ contacto@gestionstock.com</li>
+            <li>⏱ Respuesta en 24-48h</li>
+          </ul>
+
+          <!-- HUECO IMAGEN: captura/ilustración contacto -->
+          <div class="media">
+            <img class="media__img" src="img/idea.jpg" alt="Ilustración de contacto" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© 2026 Gestión Stock</p>
+      <a class="muted" href="funcion.html">Funciones</a>
+    </div>
+  </footer>
+
+</body>
+</html>
